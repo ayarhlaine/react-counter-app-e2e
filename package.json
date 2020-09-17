@@ -2,6 +2,7 @@
   "name": "react-e2e",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ayarhlaine.github.io/react-counter-app-e2e",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/lab": "^4.0.0-alpha.56",

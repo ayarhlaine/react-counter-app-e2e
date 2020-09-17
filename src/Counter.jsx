@@ -44,7 +44,7 @@ const Counter = () => {
                 </Button>
             </div>
             {
-                error.length > 0 && <Alert severity="error">{error}</Alert>
+                error.length > 0 && <Alert severity="error" className="counter__error">{error}</Alert>
             }
         </Paper>
     )

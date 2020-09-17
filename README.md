@@ -1,3 +1,23 @@
+# react-counter-app-e2e
+React JS Counter APP (e2e test).
+
+
+## Demo link
+https://ayarhlaine.github.io/react-counter-app-e2e
+
+## E2E Commands
+### initializing
+`npx codeceptjs init`
+
+### generate new page object
+`npx codeceptjs gpo`
+
+### new test
+`npx codeceptjs gt`
+
+### get help
+`npx codeceptjs run --help`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -16,6 +36,9 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn test:e2e`
+Run e2e test
 
 ### `yarn build`
 
@@ -66,16 +89,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-# generate new page object
-npx codeceptjs gpo
-
-# new test
-npx codeceptjs gt
-
-# initializing
-npx codeceptjs init
-
-# get help
-npx codeceptjs run --help

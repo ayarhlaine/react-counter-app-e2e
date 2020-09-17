@@ -22,7 +22,7 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
-    counterPage: './counter/counterPage.js',
+    counterPage: './Counter/counterPage.js',
   },
   bootstrap: null,
   mocha: {},

@@ -5,7 +5,7 @@ exports.config = {
     WebDriver: {
       url: 'http://localhost:3000/',
       windowSize: '1280x3000',
-      smartWait: 7000,
+      smartWait: 1000,
       browser: 'chrome',
       restart: false,
       desiredCapabilities: {
@@ -32,11 +32,5 @@ exports.config = {
       enabled: true,
       services: ['selenium-standalone']
     },
-    // retryFailedStep: {
-    //   enabled: true
-    // },
-    // screenshotOnFail: {
-    //   enabled: true
-    // }
   }
 }

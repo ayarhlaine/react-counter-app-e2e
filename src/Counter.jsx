@@ -33,7 +33,7 @@ const Counter = () => {
                 {counter}
             </h3>
             <div className="counter__buttons">
-                <Button variant="contained" onClick={onResetClick}>
+                <Button variant="contained" onClick={onResetClick} className="counter__resetBtn">
                     Reset
                 </Button>
                 <Button variant="contained" color="secondary" className="counter__decreaseBtn" onClick={onDecreaseClick}>

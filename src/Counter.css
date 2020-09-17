@@ -1,0 +1,7 @@
+.counter{
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.counter__buttons button{
+    margin: 0.5rem
+}

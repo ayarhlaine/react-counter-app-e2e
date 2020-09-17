@@ -9,9 +9,6 @@ jobs:
     - stage: "Unit Test"
       script: 
         - npm test
-    - stage: "E2E Test"
-      script: 
-        - npm run test:e2e
     - stage: "Build & Deploy to Github Pages"
       before_deploy: npm run build
       deploy:
